@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- TODO Dark theme related -->
+  <color name="ic_settings_color">#FFFFFFFF</color>
+  <color name="ic_attachment_color">#FFFFFFFF</color>
+  <color name="background_color">#FF808080</color>
+  <color name="ic_color_lens_color">#FFFFFFFF</color>
+
+</resources>
