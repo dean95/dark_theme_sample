@@ -1,20 +1,17 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Base application theme. -->
-    <!-- TODO Dark theme related -->
-    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.MaterialComponents.Light">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
 
-        <!-- TODO Dark theme related -->
-        <!--        <item name="android:forceDarkAllowed">true</item>-->
-    </style>
+  </style>
 
-    <style name="PageNavigationButtonStyle" parent="Widget.MaterialComponents.Button.Icon">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginBottom">@dimen/page_navigation_button_margin</item>
-    </style>
+  <style name="PageNavigationButtonStyle" parent="Widget.MaterialComponents.Button.Icon">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_marginBottom">@dimen/page_navigation_button_margin</item>
+  </style>
 </resources>

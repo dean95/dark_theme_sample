@@ -53,8 +53,6 @@ class PdfFeverApplication : Application() {
   }
 
   private fun initTheme() {
-    // TODO Dark theme related
-    val preferences = PreferenceManager.getDefaultSharedPreferences(this)
-    ThemeManager.applyTheme(preferences.getString("preference_key_theme", "")!!)
+
   }
 }
