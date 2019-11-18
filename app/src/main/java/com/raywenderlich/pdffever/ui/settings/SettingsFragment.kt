@@ -78,7 +78,7 @@ class SettingsFragment : PreferenceFragmentCompat(), SharedPreferences.OnSharedP
   }
 
   private fun setTheme(mode: Int) {
-    
+    AppCompatDelegate.setDefaultNightMode(mode)
   }
 
   private fun init() {
